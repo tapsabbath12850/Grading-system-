@@ -1,0 +1,17 @@
+BEGIN
+    FUNCTION calculateGrade(score)
+        IF score >= 70 THEN
+            RETURN "A"
+        ELSE IF score >= 60 THEN
+            RETURN "B"
+        ELSE IF score >= 50 THEN
+            RETURN "C"
+        ELSE IF score >= 45 THEN
+            RETURN "D"
+        ELSE IF score >= 40 THEN
+            RETURN "E"
+        ELSE
+            RETURN "F"
+        END IF
+    END FUNCTION
+END
